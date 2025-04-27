@@ -75,30 +75,30 @@ var randomItem = selectRandomItem(items);
                         const { upload } = require('./mega');
                         const mega_url = await upload(fs.createReadStream(rf), `${sock.user.id}.json`);
                         const string_session = mega_url.replace('https://mega.nz/file/', '');
-                        let md = "QUEEN~" + string_session;
+                        let md = "XENOCRYPT~" + string_session;
                         let code = await sock.sendMessage(sock.user.id, { text: md });
-                        let desc = `*Hello there XMD User! 👋🏻* 
+                        let desc = `*Hello there XENOCRYPT XD User! 👋🏻* 
 
-> Do not share your session id with your gf 😂.
+> Do not share your session id with anyone.
 
- *Thanks for using -XMD 🚩* 
+ *Thanks for using XENOCRYPT-XD 🚩* 
 
 > Join WhatsApp Channel :- ⤵️
  
-https://whatsapp.com/channel/0029Va8YUl50bIdtVMYnYd0E
+https://whatsapp.com/channel/0029VaesBAXJJhzefVszDu3h
 
 Dont forget to fork the repo ⬇️
 
-https://github.com/OfficialKango/KANGO-XMD
+https://github.com/darkdev-tech/mentor
 
 > *© Powered BY DARK TECH 🖤*`; 
                         await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "Hector Manuel",
-thumbnailUrl: "https://i.imgur.com/GVW7aoD.jpeg",
-sourceUrl: "https://whatsapp.com/channel/0029Va8YUl50bIdtVMYnYd0E",
+title: "DARK DEV",
+thumbnailUrl: "https://files.catbox.moe/0f1rm6.jpg",
+sourceUrl: "https://whatsapp.com/channel/0029VaesBAXJJhzefVszDu3h",
 mediaType: 1,
 renderLargerThumbnail: true
 }  
@@ -112,9 +112,9 @@ renderLargerThumbnail: true
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "KANGO-XMD",
-thumbnailUrl: "https://i.imgur.com/GVW7aoD.jpeg",
-sourceUrl: "https://whatsapp.com/channel/0029VarDt9t30LKL1SoYXy26",
+title: "XENOCRYPT-XD",
+thumbnailUrl: "https://files.catbox.moe/0f1rm6.jpg",
+sourceUrl: "https://whatsapp.com/channel/0029VaesBAXJJhzefVszDu3h",
 mediaType: 2,
 renderLargerThumbnail: true,
 showAdAttribution: true
