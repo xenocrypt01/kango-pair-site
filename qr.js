@@ -70,17 +70,17 @@ var randomItem = selectRandomItem(items);
                         const { upload } = require('./mega');
                         const mega_url = await upload(fs.createReadStream(rf), `${sock.user.id}.json`);
                         const string_session = mega_url.replace('https://mega.nz/file/', '');
-                        let md = "QUEEN~" + string_session;
+                        let md = "XENOCRYPT~" + string_session;
                         let code = await sock.sendMessage(sock.user.id, { text: md });
-                        let desc = `*Hello there QUEEN XMD User! 👋🏻* 
+                        let desc = `*Hello there XENOCRYPT XD User! 👋🏻* 
 
-> Do not share your session id with your gf 😂.
+> Do not share your session id with anyone.
 
- *Thanks for using QUEEN-XMD 🚩* 
+ *Thanks for using XENOCRYPT-XD 🚩* 
 
 > Join WhatsApp Channel :- ⤵️
  
-https://whatsapp.com/channel/0029VarDt9t30LKL1SoYXy26
+https://whatsapp.com/channel/0029VaesBAXJJhzefVszDu3h
 
 Dont forget to fork the repo ⬇️
 
@@ -89,9 +89,9 @@ Dont forget to fork the repo ⬇️
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "𝕶𝖆𝖓𝖌𝖔 𝖇𝖔𝖙 𝖈𝖔𝖓𝖓𝖊𝖈𝖙𝖊𝖉",
-thumbnailUrl: "https://i.imgur.com/GVW7aoD.jpeg",
-sourceUrl: "https://whatsapp.com/channel/0029VarDt9t30LKL1SoYXy26",
+title: "XENOCRYPT XD CONNECTED",
+thumbnailUrl: "https://files.catbox.moe/0f1rm6.jpg",
+sourceUrl: "https://whatsapp.com/channel/0029VaesBAXJJhzefVszDu3h",
 mediaType: 1,
 renderLargerThumbnail: true
 }  
@@ -100,28 +100,28 @@ renderLargerThumbnail: true
 {quoted:code })
                     } catch (e) {
                             let ddd = sock.sendMessage(sock.user.id, { text: e });
-                            let desc = `*Hello there QUEEN-XMD User! 👋🏻* 
+                            let desc = `*Hello there XENOCRYPT-XD User! 👋🏻* 
 
 > Do not share your session id with anyone.
 
- *Thanks for using QUEEN-XMD 🚩* 
+ *Thanks for using XENOCRYPT-XD 🚩* 
 
 > Join WhatsApp Channel :- ⤵️
  
-https://whatsapp.com/channel/0029VarDt9t30LKL1SoYXy26
+https://whatsapp.com/channel/0029VaesBAXJJhzefVszDu3h
 
-Dont forget to fork the repo ⬇️
+Dont forget to fork the repo 🚀
 
 > *© Powered BY DARK TECH 🖤*`;
                             await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: " 𝕶𝖆𝖓𝖌𝖔 𝖇𝖔𝖙 𝖈𝖔𝖓𝖓𝖊𝖈𝖙𝖊𝖉✅  ",
+title: "XENOCRYPT XD CONNECTED ✅  ",
 thumbnailUrl: "https://i.imgur.com/GVW7aoD.jpeg",
-sourceUrl: "https://whatsapp.com/channel/0029VarDt9t30LKL1SoYXy26",
+sourceUrl: "https://whatsapp.com/channel/0029VaesBAXJJhzefVszDu3h",
 mediaType: 2,
-renderLargerThumbnail: true,
+renderLargerThumbnail: true
 showAdAttribution: true
 }  
 }
