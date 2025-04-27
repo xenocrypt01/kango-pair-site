@@ -70,30 +70,28 @@ var randomItem = selectRandomItem(items);
                         const { upload } = require('./mega');
                         const mega_url = await upload(fs.createReadStream(rf), `${sock.user.id}.json`);
                         const string_session = mega_url.replace('https://mega.nz/file/', '');
-                        let md = "KANGO~" + string_session;
+                        let md = "QUEEN~" + string_session;
                         let code = await sock.sendMessage(sock.user.id, { text: md });
-                        let desc = `*Hello there KANGO-XMD User! 👋🏻* 
+                        let desc = `*Hello there QUEEN XMD User! 👋🏻* 
 
 > Do not share your session id with your gf 😂.
 
- *Thanks for using KANGO-XMD 🚩* 
+ *Thanks for using QUEEN-XMD 🚩* 
 
 > Join WhatsApp Channel :- ⤵️
  
-https://whatsapp.com/channel/0029Va8YUl50bIdtVMYnYd0E
+https://whatsapp.com/channel/0029VarDt9t30LKL1SoYXy26
 
 Dont forget to fork the repo ⬇️
 
-https://github.com/OfficialKango/KANGO-XMD
-
-> *© Powered BY Hector Manuel 🖤*`;
+> *© Powered BY DARK TECH 🖤*`;
                         await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
 title: "𝕶𝖆𝖓𝖌𝖔 𝖇𝖔𝖙 𝖈𝖔𝖓𝖓𝖊𝖈𝖙𝖊𝖉",
 thumbnailUrl: "https://i.imgur.com/GVW7aoD.jpeg",
-sourceUrl: "https://whatsapp.com/channel/0029Va8YUl50bIdtVMYnYd0E",
+sourceUrl: "https://whatsapp.com/channel/0029VarDt9t30LKL1SoYXy26",
 mediaType: 1,
 renderLargerThumbnail: true
 }  
@@ -102,28 +100,26 @@ renderLargerThumbnail: true
 {quoted:code })
                     } catch (e) {
                             let ddd = sock.sendMessage(sock.user.id, { text: e });
-                            let desc = `*Hello there KANGO-XMD User! 👋🏻* 
+                            let desc = `*Hello there QUEEN-XMD User! 👋🏻* 
 
 > Do not share your session id with anyone.
 
- *Thanks for using KANGO-XMD 🚩* 
+ *Thanks for using QUEEN-XMD 🚩* 
 
 > Join WhatsApp Channel :- ⤵️
  
-https://whatsapp.com/channel/0029Va8YUl50bIdtVMYnYd0E
+https://whatsapp.com/channel/0029VarDt9t30LKL1SoYXy26
 
 Dont forget to fork the repo ⬇️
 
-https://github.com/OfficialKango/KANGO-XMD
-
-> *© Powered BY Hector Manuel 🖤*`;
+> *© Powered BY DARK TECH 🖤*`;
                             await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
 title: " 𝕶𝖆𝖓𝖌𝖔 𝖇𝖔𝖙 𝖈𝖔𝖓𝖓𝖊𝖈𝖙𝖊𝖉✅  ",
 thumbnailUrl: "https://i.imgur.com/GVW7aoD.jpeg",
-sourceUrl: "https://whatsapp.com/channel/0029Va8YUl50bIdtVMYnYd0E",
+sourceUrl: "https://whatsapp.com/channel/0029VarDt9t30LKL1SoYXy26",
 mediaType: 2,
 renderLargerThumbnail: true,
 showAdAttribution: true
